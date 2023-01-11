@@ -1,6 +1,6 @@
-import React from "react";
+import Data from "../model/data";
 
-const data = {
+const data: Data = {
   products: [
     {
       name: "Free Shirt",

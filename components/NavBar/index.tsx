@@ -32,9 +32,9 @@ const NavBar = () => {
         </p>
         <div>
           <ul className={styles.ul}>
-            {links.map((link) => (
-              <li>
-                += <Link href={link.path}>{link.name}</Link> =+
+            {links.map((link, index) => (
+              <li key={index}>
+                += <a href={link.path}>{link.name}</a> =+
               </li>
             ))}
           </ul>

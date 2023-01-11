@@ -42,8 +42,23 @@
   margin: 1rem;
 }
 
+.ul li a:hover{
+  font-weight:900;
+}
+
 .footer{
   border-top: 1px solid rgba(var(--callout-border-rgb), 0.25);
+}
+
+.image {
+  -webkit-border-top-left-radius: var(--border-radius);
+  -webkit-border-top-right-radius: var(--border-radius);
+  -moz-border-radius-topleft: var(--border-radius);
+  -moz-border-radius-topright: var(--border-radius);
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  object-fit: cover;
+  max-width: 100%;
 }
 
 /* Mobile */

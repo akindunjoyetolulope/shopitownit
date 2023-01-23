@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <Layout title="Home Page">
         <CardContainar>
-          {data.products.map((item, index) => (
+          {data.products.map((item) => (
             <ProductItem product={item} key={item.slug} />
           ))}
         </CardContainar>

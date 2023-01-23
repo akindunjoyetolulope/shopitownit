@@ -47,7 +47,7 @@ const PageContent = styled.div`
 
   ${media.tablet} {
     grid-template-columns: repeat(4, minmax(0px, 1fr));
-    gap: 1rem;
+    gap: 2rem;
 
     > div {
       grid-column: span 2 / span 2;

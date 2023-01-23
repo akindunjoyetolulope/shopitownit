@@ -19,11 +19,9 @@ export default function Layout(props: Props) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <NavBar />
       <BodyEl>
-        <NavBar />
-        <main>
-          <MainEl>{props.children}</MainEl>
-        </main>
+        <MainEl>{props.children}</MainEl>
         <Footer>
           <div>CopyRight @ 2023 ShopItOwnIt </div>
         </Footer>
@@ -34,17 +32,18 @@ export default function Layout(props: Props) {
 
 const BodyEl = styled.div`
   display: flex;
-  min-height: 100vh;
+  min-height: calc(100vh - 72px);
   flex-direction: column;
   justify-content: space-between;
+  padding: 0rem 2rem;
 `;
 
 const MainEl = styled.div`
   font-size: 0.85rem;
   max-width: var(--max-width);
-  margin: auto;
+  margin: 0px auto;
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 0px;
   font-family: var(--font-mono);
 `;
 

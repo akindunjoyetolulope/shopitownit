@@ -15,7 +15,7 @@
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
-  padding: 1rem;
+  padding: 0.5rem;
   font-family: var(--font-mono);
 }
 

@@ -32,8 +32,8 @@ export default function Layout(props: Props) {
 
 const BodyEl = styled.div`
   display: flex;
-  min-height: calc(100vh - 72px);
   flex-direction: column;
+  min-height: calc(100vh - 72px);
   justify-content: space-between;
   padding: 0rem 2rem;
 `;
@@ -42,8 +42,8 @@ const MainEl = styled.div`
   font-size: 0.85rem;
   max-width: var(--max-width);
   margin: 0px auto;
-  width: 100%;
   padding: 1rem 0px;
+  width: 100%;
   font-family: var(--font-mono);
 `;
 
